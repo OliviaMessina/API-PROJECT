@@ -55,10 +55,7 @@
   + **ts** : correspond au premier chiffre de la _public key_
   + **hast** : correspond au codage md5( _ts_+ _public key_ + _private key_ )
    
-  Cela va donc nous donner pour les paramètres : 
-  **```python
-  params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"
-  }```**
+  Cela va donc nous donner pour les paramètres : **```params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"}```**
   
   Pour cette API, il y a plusieurs manières d'obtenir les données des Superheros :
   + À partir de **characters**
