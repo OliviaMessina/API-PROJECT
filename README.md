@@ -52,6 +52,7 @@
   Tout d'abord, il faut connecter Python à SQL SERVER en utilisant la librairie **`pyodbc`**. 
   
   ``` python
+  import pyodbc
   conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=ServerName;'
                       'Database=SUPERHEROS;'
