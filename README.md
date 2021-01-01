@@ -32,7 +32,7 @@
   ### Dictionnaire des données SUPERHEROS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
   ![JSON SUPERHEROS](https://user-images.githubusercontent.com/74513460/103439914-77b70380-4c41-11eb-97ea-bb0f8fb8bcb7.PNG)
   
@@ -71,7 +71,7 @@
   ### Dictionnaire des données MARVEL
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
   ![JSON MARVEL](https://user-images.githubusercontent.com/74513460/103439922-82719880-4c41-11eb-86e6-60f7bf57327e.PNG)
   
@@ -97,7 +97,7 @@
   ### Dictionnaire des données PAYS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
   ![JSON_PAYS](https://user-images.githubusercontent.com/74513460/103439918-7d144e00-4c41-11eb-9bec-5c7749220dab.PNG)
   
