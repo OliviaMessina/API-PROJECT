@@ -4,16 +4,16 @@
 
 # Table of Contents
   * [SUPERHEROS](#SUPERHEROS)
-     - [Info API](#Info-API)
+     - [Info API SUPERHEROS](#Info-API-SUPERHEROS)
   * [MARVEL](#MARVEL)
-     - [Info API](#Info-API)
+     - [Info API MARVEL](#Info-API-MARVEL)
   * [PAYS](#PAYS)
   
   
   ## SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
   
-  ### Info API
+  ### Info API SUPERHEROS
   Endpoint utilisé : **`http(s)://superheroapi.com/api/access-token/search/name`**
   
   **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. 
@@ -31,7 +31,7 @@
    ## MARVEL
   ![PAGE DE GARDE](https://user-images.githubusercontent.com/74513460/103438125-b6dc5900-4c2f-11eb-90c2-972255a1aaa5.PNG)
 
-   ### Info API
+   ### Info API MARVEL
    Endpoint utilisé : **`http(s)://gateway.marvel.com/`**
    
    **Étape 1** : récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL. 
@@ -41,9 +41,7 @@
   + **ts** : correspond au premier chiffre de la _public key_
   + **hast** : correspond au codage md5( _ts_+ _public key_ + _private key_ )
    
-  Cela va donc nous donner pour les paramètres : ```py
-  params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"
-  }```
+  Cela va donc nous donner pour les paramètres : **```params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"}```**
   
   Pour cette API, il y a plusieurs manières d'obtenir les données des Superheros :
   + À partir de **characters**
