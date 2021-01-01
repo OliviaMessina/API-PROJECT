@@ -84,24 +84,31 @@
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
   1) **PERSONNAGE**
+  
   ![SQL PERSONNAGE](https://user-images.githubusercontent.com/74513460/103444129-e1490900-4c65-11eb-995d-05fe54863027.PNG)
   
   2) **APPEARANCE**
+  
   ![SQL APPEARANCE](https://user-images.githubusercontent.com/74513460/103444124-db532800-4c65-11eb-8866-8e8e49c04f23.PNG)
   
   3) **POWERSTATS**
+  
   ![SQL POWERSTATS](https://user-images.githubusercontent.com/74513460/103444131-e73eea00-4c65-11eb-95d9-3576740a7a0e.PNG)
   
   4) **BIOGRAPHY**
+  
   ![SQL BIOGRAPHY](https://user-images.githubusercontent.com/74513460/103444125-e017dc00-4c65-11eb-8854-f672764e0033.PNG)
   
   5) **CONNECTION**
+  
   ![SQL CONNECTION](https://user-images.githubusercontent.com/74513460/103444126-e0b07280-4c65-11eb-9cd3-6946db954bb7.PNG)
   
   6) **WORK**
+  
   ![SQL WORK](https://user-images.githubusercontent.com/74513460/103444132-e7d78080-4c65-11eb-9bea-8e8707c9d088.PNG)
   
   7) **IMAGE**
+  
   ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
   
   ---
@@ -178,39 +185,51 @@
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
   1) **CHARACTERS**
+  
   ![SQL CHARACTERS](https://user-images.githubusercontent.com/74513460/103444247-2d487d80-4c67-11eb-820d-35edc9e1a38d.PNG)
   
   2) **COMICS**
+  
   ![SQL COMICS](https://user-images.githubusercontent.com/74513460/103444248-2de11400-4c67-11eb-8b69-c41688d2fbf4.PNG)
   
   3) **SERIES**
+  
   ![SQL SERIES](https://user-images.githubusercontent.com/74513460/103444256-30436e00-4c67-11eb-82dd-bbaa8972fe8c.PNG)
   
   4) **STORIES**
+  
   ![SQL STORIES](https://user-images.githubusercontent.com/74513460/103444258-30dc0480-4c67-11eb-8bf8-2f9003aa5a17.PNG)
   
   5) **EVENTS**
+  
   ![SQL EVENTS](https://user-images.githubusercontent.com/74513460/103444251-2e79aa80-4c67-11eb-9280-519ebaf48062.PNG)
 
   6) **DESCRIPTION**
+  
   ![SQL DESCRIPTION](https://user-images.githubusercontent.com/74513460/103444250-2e79aa80-4c67-11eb-83a5-dc579cbe4c2b.PNG)
   
   7) **URL**
+  
   ![SQL URL](https://user-images.githubusercontent.com/74513460/103444261-31749b00-4c67-11eb-8a3f-6ef8c902eb6e.PNG)
 
   8) **THUMBNAIL**
+  
   ![SQL THUMBNAIL](https://user-images.githubusercontent.com/74513460/103444260-30dc0480-4c67-11eb-8dfe-2d28cdd24df4.PNG)
  
  9) **ITEMS COMICS**
+ 
   ![SQL ITEMS COMICS](https://user-images.githubusercontent.com/74513460/103444252-2f124100-4c67-11eb-9b86-b8014f137548.PNG)
   
   10) **ITEMS EVENTS**
+  
   ![SQL ITEMS EVENTS](https://user-images.githubusercontent.com/74513460/103444253-2faad780-4c67-11eb-9657-3d4c461fbb1b.PNG)
 
   11) **ITEMS SERIES**
+  
   ![SQL ITEMS SERIES](https://user-images.githubusercontent.com/74513460/103444254-2faad780-4c67-11eb-8df5-09ac936d9ddd.PNG)
 
   12) **ITEMS STORIES**
+  
   ![SQL ITEMS STORIES](https://user-images.githubusercontent.com/74513460/103444255-30436e00-4c67-11eb-8ae5-c4bf247ca1a4.PNG)
 
  
@@ -273,28 +292,35 @@
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
   1) **PAYS**
-  ![SQL CHARACTERS](https://user-images.githubusercontent.com/74513460/103444247-2d487d80-4c67-11eb-820d-35edc9e1a38d.PNG)
   
+  ![SQL_PAYS](https://user-images.githubusercontent.com/74513460/103444506-16a32600-4c69-11eb-931e-ca833ba8938f.PNG)
+
   2) **GEOGRAPHY**
-  ![SQL COMICS](https://user-images.githubusercontent.com/74513460/103444248-2de11400-4c67-11eb-8b69-c41688d2fbf4.PNG)
   
+  ![SQL_GEOGRAPHY](https://user-images.githubusercontent.com/74513460/103444502-1571f900-4c69-11eb-957c-5a5a1b1724d1.PNG)
+
   3) **REGIONAL BLOCS**
-  ![SQL SERIES](https://user-images.githubusercontent.com/74513460/103444256-30436e00-4c67-11eb-82dd-bbaa8972fe8c.PNG)
   
+  ![SQL_REGIONAL_BLOCS](https://user-images.githubusercontent.com/74513460/103444507-16a32600-4c69-11eb-9114-fa1ac2dbf3ec.PNG)
+
   4) **ORIGIN**
-  ![SQL STORIES](https://user-images.githubusercontent.com/74513460/103444258-30dc0480-4c67-11eb-8bf8-2f9003aa5a17.PNG)
   
+  ![SQL_ORIGIN](https://user-images.githubusercontent.com/74513460/103444505-160a8f80-4c69-11eb-83d3-aa2f79785457.PNG)
+
   5) **SPECIAL CODES**
-  ![SQL EVENTS](https://user-images.githubusercontent.com/74513460/103444251-2e79aa80-4c67-11eb-9280-519ebaf48062.PNG)
+  
+  ![SQL_SPECIAL_CODES](https://user-images.githubusercontent.com/74513460/103444508-173bbc80-4c69-11eb-955c-84601eaff968.PNG)
 
   6) **LANGUAGES**
-  ![SQL DESCRIPTION](https://user-images.githubusercontent.com/74513460/103444250-2e79aa80-4c67-11eb-83a5-dc579cbe4c2b.PNG)
   
+  ![SQL_LANGUAGES](https://user-images.githubusercontent.com/74513460/103444504-160a8f80-4c69-11eb-9588-11a6e639f4b9.PNG)
+
   7) **CURRENCIES**
-  ![SQL URL](https://user-images.githubusercontent.com/74513460/103444261-31749b00-4c67-11eb-8a3f-6ef8c902eb6e.PNG)
+  
+  ![SQL_CURRENCIES](https://user-images.githubusercontent.com/74513460/103444501-14d96280-4c69-11eb-87f0-8be8327d1878.PNG)
 
   8) **TRANSLATION**
-  ![SQL THUMBNAIL](https://user-images.githubusercontent.com/74513460/103444260-30dc0480-4c67-11eb-8dfe-2d28cdd24df4.PNG)
- 
+  
+  ![SQL_TRANSLATION](https://user-images.githubusercontent.com/74513460/103444509-173bbc80-4c69-11eb-89ef-962baad1294a.PNG)
   
   ---
