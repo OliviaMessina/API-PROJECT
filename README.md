@@ -13,10 +13,10 @@
      - [Info API PAYS](#Info-API-PAYS)
      - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
   
-  ## SUPERHEROS
+  # SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
   
-  ### Info API SUPERHEROS
+  ## Info API SUPERHEROS
   Endpoint utilisé : **`http(s)://superheroapi.com/api/access-token/search/name`**
   
   **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK 
@@ -29,7 +29,7 @@
   
   Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre **'a'** dans le prénom 
   
-  ### Dictionnaire des données SUPERHEROS
+  ## Dictionnaire des données SUPERHEROS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
@@ -42,10 +42,10 @@
   
   ---
   
-   ## MARVEL
+   # MARVEL
   ![PAGE DE GARDE](https://user-images.githubusercontent.com/74513460/103438125-b6dc5900-4c2f-11eb-90c2-972255a1aaa5.PNG)
 
-   ### Info API MARVEL
+   ## Info API MARVEL
    Endpoint utilisé : **`http(s)://gateway.marvel.com/`**
    
    **Étape 1** : récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL 
@@ -68,7 +68,7 @@
   
   Il faut savoir que le nombre de données est limité à 100 
   
-  ### Dictionnaire des données MARVEL
+  ## Dictionnaire des données MARVEL
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
@@ -83,10 +83,10 @@
 
   ---
   
-   ## PAYS
+   # PAYS
   ![PAGE DE GARDE1](https://user-images.githubusercontent.com/74513460/103438112-acba5a80-4c2f-11eb-9f9d-d9cbecfdab6f.PNG)
   
-  ### Info API PAYS
+  ## Info API PAYS
   
   Endpoint utilisé : **`http(s)://restcountries.eu/rest/v2/all`**
    
@@ -94,7 +94,7 @@
    
   Pour récupérer toutes les données, nous avons utilisé le Endpoint ci-dessus
   
-  ### Dictionnaire des données PAYS
+  ## Dictionnaire des données PAYS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
