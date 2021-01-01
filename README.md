@@ -32,7 +32,10 @@
   ### Dictionnaire des données SUPERHEROS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_ nous obtenons des données structurés :
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
+  ![JSON SUPERHEROS](https://user-images.githubusercontent.com/74513460/103439914-77b70380-4c41-11eb-97ea-bb0f8fb8bcb7.PNG)
+  
+  À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
   
   
   ---
@@ -62,6 +65,16 @@
   Pour récupérer les données, nous avons utilisé : **`http(s)://gateway.marvel.com/v1/public/characters`**
   
   Il faut savoir que le nombre de données est limité à 100 
+  
+  ### Dictionnaire des données MARVEL
+  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
+  
+  
+  À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
+  
+  
    
 
   ---
@@ -76,5 +89,13 @@
   **Étape 1** : pas besoin de créer un compte ou avoir une _public key_
    
   Pour récupérer toutes les données, nous avons utilisé le Endpoint ci-dessus
+  
+  ### Dictionnaire des données PAYS
+  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
+  
+  
+  À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
   
   ---
