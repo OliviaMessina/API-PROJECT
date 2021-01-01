@@ -118,6 +118,22 @@
   
   Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
+  1) **Tous les Superheros et leur nom complet qui sont de race humaine**
+  
+  ![REQUETE tous les SH FN ID - de race humaine](https://user-images.githubusercontent.com/74513460/103446944-62fc5f00-4c85-11eb-8598-64aab42afa8c.PNG)
+  
+  2) **Tous les Superheros qui ont une intelligence comprise entre 60 et 70**
+  
+![REQUETE tous les SH qui ont une intelligence comprise entre 60 et 70](https://user-images.githubusercontent.com/74513460/103446945-6394f580-4c85-11eb-92c0-1bcb3236a6a6.PNG)
+
+  3) **Top 100 des Superheros par ordre alphabétique ayant le maximum de combat**
+  
+![Top 100 des superheros par ordre alphabetique et le maximu de combat effectué](https://user-images.githubusercontent.com/74513460/103446962-917a3a00-4c85-11eb-9204-9f22e844bc21.PNG)
+
+ 4) **Nom des Superheros qui n'ont pas de cheveux "Hair Color= No Hair"**
+  
+  ![Nom des SH qui n'ont pas de cheveux No_Hair](https://user-images.githubusercontent.com/74513460/103446965-92ab6700-4c85-11eb-8616-fba7b6e025c4.PNG)
+  
   ---
   
    # MARVEL
@@ -243,6 +259,18 @@
   
   Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
+  1) **Les Superheros qui ont une description egale à null**
+  
+  ![les superheros qui ont des description est egal à null](https://user-images.githubusercontent.com/74513460/103446966-92ab6700-4c85-11eb-8057-a247cce5d633.PNG)
+
+  2) **Superheros ayant un nombre de comics dont le nombre de séries est supérieur à la moyenne**
+  
+  ![Superheros ayant sortie une BD dont le nombre de serie est superieur à la moyenne](https://user-images.githubusercontent.com/74513460/103446964-9212d080-4c85-11eb-8157-28fc7f5c3807.PNG)
+
+ 3) **Superheros qui ont une extension JPG et dont available égale 0 dans stories**
+ 
+ ![Superheros qui ont des vignettes JGN (ou JPG) mais qui n'ont pas de stories available](https://user-images.githubusercontent.com/74513460/103446963-9212d080-4c85-11eb-945c-2d75e490c04b.PNG)
+
   ---
   
    # PAYS
@@ -338,4 +366,16 @@
   
   Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
+  1) **Combien de Pays ont pour acronym "EU" ?**
+  
+  ![REQUETE cb de pays ont pour acronym EU](https://user-images.githubusercontent.com/74513460/103446953-6d1e5d80-4c85-11eb-87e4-7a552b364bd3.PNG)
+  
+  2) **Quels sont les pays qui ne sont pas de la Subregion "Southern Asia" ?**
+  
+![REQUETE pays qui ne sont pas dans Southern Asia](https://user-images.githubusercontent.com/74513460/103446954-6db6f400-4c85-11eb-94e0-e5b15aba2f87.PNG)
+
+ 3) **Quelle est le nombre de la population totale en Afrique ?**
+ 
+ ![REQUETE Population totale in Africa](https://user-images.githubusercontent.com/74513460/103446955-6e4f8a80-4c85-11eb-8cdd-81a28bcd93ab.PNG)
+ 
   ---
