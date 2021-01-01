@@ -14,7 +14,7 @@
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
   
   ### Info API
-  Endpoint utilisé : **http(s)://superheroapi.com/api/access-token/search/name**
+  Endpoint utilisé : '**http(s)://superheroapi.com/api/access-token/search/name**'
   
   **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. 
   
