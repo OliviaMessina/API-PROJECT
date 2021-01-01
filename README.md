@@ -7,14 +7,17 @@
      - [Info API SUPERHEROS](#Info-API-SUPERHEROS)
      - [Dictionnaire des données SUPERHEROS](#Dictionnaire-des-données-SUPERHEROS)
      - [Création des tables SUPERHEROS](#Création-des-tables-SUPERHEROS)
+     - [Schéma de base de données SUPERHEROS](#Schéma-de-base-de-données-SUPERHEROS)
   * [MARVEL](#MARVEL)
      - [Info API MARVEL](#Info-API-MARVEL)
      - [Dictionnaire des données MARVEL](#Dictionnaire-des-données-MARVEL)
      - [Création des tables MARVEL](#Création-des-tables-MARVEL)
+     - [Schéma de base de données MARVEL](#Schéma-de-base-de-données-MARVEL)
   * [PAYS](#PAYS)
      - [Info API PAYS](#Info-API-PAYS)
      - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
      - [Création des tables PAYS](#Création-des-tables-PAYS)
+     - [Schéma de base de données PAYS](#Schéma-de-base-de-données-PAYS)
   
   # SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
@@ -65,6 +68,12 @@
   ![CODE appearance](https://user-images.githubusercontent.com/74513460/103443256-a04cf680-4c5d-11eb-9464-bda81e38d530.PNG)
   
   Nous avons créé cette méthode pour toutes les tables.
+  
+  ## Schéma de base de données SUPERHEROS
+  
+  Après avoir créé toutes les tables, nous pouvons aller sur SQL SERVER afin de visualiser le schéma de données.
+  
+  
   
   ---
   
