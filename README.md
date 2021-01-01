@@ -46,7 +46,8 @@
   ## Création des tables SUPERHEROS
   **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
-  Comme vu précédemment, nous avons au total sept tables dans la database **SUPERHEROS**.
+  Comme vu précédemment, nous avons au total sept tables dans la database **SUPERHEROS** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
+  
   Nous allons nous baser sur une seule table **APPEARANCE** pour expliquer plus en détail.
   
   Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
@@ -107,7 +108,8 @@
   ## Création des tables MARVEL
   **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
-  Comme vu précédemment, nous avons au total douze tables dans la database **MARVEL**.
+  Comme vu précédemment, nous avons au total douze tables dans la database **MARVEL** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
+  
   Nous allons nous baser sur une seule table **CHARACTERS** pour expliquer plus en détail.
   
   Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
@@ -154,7 +156,8 @@
    ## Création des tables PAYS
   **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
-  Comme vu précédemment, nous avons au total dix tables dans la database **PAYS**.
+  Comme vu précédemment, nous avons au total dix tables dans la database **PAYS** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
+  
   Nous allons nous baser sur une seule table **GEOGRAPHY** pour expliquer plus en détail.
   
   Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
