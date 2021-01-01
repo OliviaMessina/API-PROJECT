@@ -8,16 +8,19 @@
      - [Dictionnaire des données SUPERHEROS](#Dictionnaire-des-données-SUPERHEROS)
      - [Création des tables SUPERHEROS](#Création-des-tables-SUPERHEROS)
      - [Schéma de base de données SUPERHEROS](#Schéma-de-base-de-données-SUPERHEROS)
+     - [Remplissage des tables SUPERHEROS](#Remplissage-des-tables-SUPERHEROS)
   * [MARVEL](#MARVEL)
      - [Info API MARVEL](#Info-API-MARVEL)
      - [Dictionnaire des données MARVEL](#Dictionnaire-des-données-MARVEL)
      - [Création des tables MARVEL](#Création-des-tables-MARVEL)
      - [Schéma de base de données MARVEL](#Schéma-de-base-de-données-MARVEL)
+     - [Remplissage des tables MARVEL](#Remplissage-des-tables-MARVEL)
   * [PAYS](#PAYS)
      - [Info API PAYS](#Info-API-PAYS)
      - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
      - [Création des tables PAYS](#Création-des-tables-PAYS)
      - [Schéma de base de données PAYS](#Schéma-de-base-de-données-PAYS)
+     - [Remplissage des tables PAYS](#Remplissage-des-tables-PAYS)
   
   # SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
@@ -74,6 +77,13 @@
   Après avoir créé toutes les tables, nous pouvons aller sur SQL SERVER afin de visualiser le schéma de données.
   
   ![SCHEMA BDD SUPERHEROS](https://user-images.githubusercontent.com/74513460/103443837-1142dd00-4c63-11eb-9a76-ce90dcf00a4d.PNG)
+  
+  ## Remplissage des tables SUPERHEROS
+  **Étape 4** : remplir les tables à partir de Python et les visualiser sur SQL SERVER
+  
+  Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
+  
+  1) **PERSONNAGE**
   
   ---
   
