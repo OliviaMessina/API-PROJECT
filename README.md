@@ -73,7 +73,7 @@
   
   Après avoir créé toutes les tables, nous pouvons aller sur SQL SERVER afin de visualiser le schéma de données.
   
-  
+  ![SCHEMA BDD SUPERHEROS](https://user-images.githubusercontent.com/74513460/103443837-1142dd00-4c63-11eb-9a76-ce90dcf00a4d.PNG)
   
   ---
   
@@ -137,7 +137,12 @@
   
   Nous avons créé cette méthode pour toutes les tables.
    
-
+  ## Schéma de base de données MARVEL
+  
+  Après avoir créé toutes les tables, nous pouvons aller sur SQL SERVER afin de visualiser le schéma de données.
+  
+  ![SCHEMA BDD MARVEL](https://user-images.githubusercontent.com/74513460/103443826-01c39400-4c63-11eb-9a24-6b1007924a50.PNG)
+  
   ---
   
    # PAYS
@@ -184,5 +189,11 @@
   ![CODE geography](https://user-images.githubusercontent.com/74513460/103443481-f58a0780-4c5f-11eb-8838-cdcbe8a57650.PNG)
   
   Nous avons créé cette méthode pour toutes les tables.
+  
+  ## Schéma de base de données MARVEL
+  
+  Après avoir créé toutes les tables, nous pouvons aller sur SQL SERVER afin de visualiser le schéma de données.
+  
+  ![SCHEMA_BDD PAYS](https://user-images.githubusercontent.com/74513460/103443820-f40e0e80-4c62-11eb-9787-404152fe05b1.PNG)
   
   ---
