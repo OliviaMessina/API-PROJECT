@@ -32,11 +32,11 @@
   ### Dictionnaire des données SUPERHEROS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
   ![JSON SUPERHEROS](https://user-images.githubusercontent.com/74513460/103439914-77b70380-4c41-11eb-97ea-bb0f8fb8bcb7.PNG)
   
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
-  
+  ![DIFFERENTES TABLES SUPERHEROS](https://user-images.githubusercontent.com/74513460/103440004-61f60e00-4c42-11eb-8fc0-08253a64f9d1.PNG)
   
   ---
   
@@ -69,11 +69,11 @@
   ### Dictionnaire des données MARVEL
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
-  
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
+  ![JSON MARVEL](https://user-images.githubusercontent.com/74513460/103439922-82719880-4c41-11eb-86e6-60f7bf57327e.PNG)
   
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
-  
+  ![LES DIFFRERENTES TABLES MARVEL](https://user-images.githubusercontent.com/74513460/103439985-47bc3000-4c42-11eb-98a2-f440e7c916c2.PNG)
   
    
 
@@ -93,9 +93,10 @@
   ### Dictionnaire des données PAYS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
-  En transformant le code en _Python JSON Object_, nous obtenons des données structurés :
-  
+  En transformant le code en _Python JSON Object_, nous obtenons des données structurés (un extrait) :
+  ![JSON_PAYS](https://user-images.githubusercontent.com/74513460/103439918-7d144e00-4c41-11eb-9bec-5c7749220dab.PNG)
   
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
+  ![CODE_DIFFERENTES_TABLES PAYS](https://user-images.githubusercontent.com/74513460/103439996-53a7f200-4c42-11eb-9159-345a6db26d6d.PNG)
   
   ---
