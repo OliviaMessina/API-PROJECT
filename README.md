@@ -9,18 +9,21 @@
      - [Création des tables SUPERHEROS](#Création-des-tables-SUPERHEROS)
      - [Schéma de base de données SUPERHEROS](#Schéma-de-base-de-données-SUPERHEROS)
      - [Remplissage des tables SUPERHEROS](#Remplissage-des-tables-SUPERHEROS)
+     - [Exemples requêtes SQL SUPERHEROS](#Exemple-requêtes-SQL-SUPERHEROS)
   * [MARVEL](#MARVEL)
      - [Info API MARVEL](#Info-API-MARVEL)
      - [Dictionnaire des données MARVEL](#Dictionnaire-des-données-MARVEL)
      - [Création des tables MARVEL](#Création-des-tables-MARVEL)
      - [Schéma de base de données MARVEL](#Schéma-de-base-de-données-MARVEL)
      - [Remplissage des tables MARVEL](#Remplissage-des-tables-MARVEL)
+     - [Exemples requêtes SQL MARVEL](#Exemple-requêtes-SQL-MARVEL)
   * [PAYS](#PAYS)
      - [Info API PAYS](#Info-API-PAYS)
      - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
      - [Création des tables PAYS](#Création-des-tables-PAYS)
      - [Schéma de base de données PAYS](#Schéma-de-base-de-données-PAYS)
      - [Remplissage des tables PAYS](#Remplissage-des-tables-PAYS)
+     - [Exemples requêtes SQL PAYS](#Exemple-requêtes-SQL-PAYS)
   
   # SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
@@ -110,6 +113,10 @@
   7) **IMAGE**
   
   ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
+  
+   ## Exemples de requêtes SQL SUPERHEROS
+  
+  Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
   ---
   
@@ -232,7 +239,10 @@
   
   ![SQL ITEMS STORIES](https://user-images.githubusercontent.com/74513460/103444255-30436e00-4c67-11eb-8ae5-c4bf247ca1a4.PNG)
 
- 
+   ## Exemples de requêtes SQL MARVEL
+  
+  Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
+  
   ---
   
    # PAYS
@@ -323,5 +333,9 @@
   8) **TRANSLATION**
   
   ![SQL_TRANSLATION](https://user-images.githubusercontent.com/74513460/103444509-173bbc80-4c69-11eb-89ef-962baad1294a.PNG)
+  
+  ## Exemples de requêtes SQL PAYS
+  
+  Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
   ---
