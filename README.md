@@ -103,7 +103,28 @@
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
   
   ![LES DIFFRERENTES TABLES MARVEL](https://user-images.githubusercontent.com/74513460/103439985-47bc3000-4c42-11eb-98a2-f440e7c916c2.PNG)
+ 
+  ## Création des tables SUPERHEROS
+  **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
+  Comme vu précédemment, nous avons au total sept tables dans la database **MARVEL**.
+  Nous allons nous baser sur une seule table **CHARACTERS** pour expliquer plus en détail.
+  
+  Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
+  
+  ``` python
+  import pyodbc
+  conn = pyodbc.connect('Driver={SQL Server};'
+                      'Server=ServerName;'
+                      'Database=MARVEL;'
+                      'Trusted_Connection=yes;') 
+  ```
+ 
+  Ensuite, il faut faire la requête permettant de créer la table **CHARACTERS** dans *SQL SERVER* contenant ses attributs
+  
+  
+  
+  Nous avons créé cette méthode pour toutes les tables.
    
 
   ---
@@ -129,5 +150,27 @@
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
   
   ![CODE_DIFFERENTES_TABLES PAYS](https://user-images.githubusercontent.com/74513460/103439996-53a7f200-4c42-11eb-9159-345a6db26d6d.PNG)
+  
+    ## Création des tables SUPERHEROS
+  **Étape 3** : créer les différentes tables à partir de Python dans SQL
+  
+  Comme vu précédemment, nous avons au total sept tables dans la database **PAYS**.
+  Nous allons nous baser sur une seule table **GEOGRAPHY** pour expliquer plus en détail.
+  
+  Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
+  
+  ``` python
+  import pyodbc
+  conn = pyodbc.connect('Driver={SQL Server};'
+                      'Server=ServerName;'
+                      'Database=GEOGRAPHY;'
+                      'Trusted_Connection=yes;') 
+  ```
+ 
+  Ensuite, il faut faire la requête permettant de créer la table **GEOGRAPHY** dans *SQL SERVER* contenant ses attributs
+  
+  
+  
+  Nous avons créé cette méthode pour toutes les tables.
   
   ---
