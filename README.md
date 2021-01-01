@@ -14,7 +14,7 @@
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
   
   ### Info API
-  Endpoint utilisé : **https://superheroapi.com/api/access-token/search/name**
+  Endpoint utilisé : **http(s)://superheroapi.com/api/access-token/search/name**
   
   **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. 
   
@@ -22,7 +22,7 @@
   + À partir de l'**id**
   + À partir du **nom**
   
-  Pour récupérer un maximum de données, nous avons cherché à partir du nom : **https://superheroapi.com/api/access-token/search/a**.
+  Pour récupérer un maximum de données, nous avons cherché à partir du nom : **http(s)://superheroapi.com/api/access-token/search/a**.
   
   Nous avons fait **'search/a'** car logiquement, plusieurs Superheros ont la lettre 'a' dans le prénom. 
   
@@ -41,7 +41,8 @@
   + **ts** : correspond au premier chiffre de la _public key_
   + **hast** : correspond au codage md5( _ts_+ _public key_ + _private key_ )
    
-  Cela va donc nous donner pour les paramètres : '''params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"}'''
+  Cela va donc nous donner pour les paramètres : ''' py
+  params={"apikey":"_public key_","ts": "_ts_","hash": "_hash_"}'''
   
   Pour cette API, il y a plusieurs manières d'obtenir les données des Superheros :
   + À partir de '**characters**
@@ -50,7 +51,7 @@
   + À partir de **events**
   + À partir de **stories**
   
-  Pour récupérer les données, nous avons utilisé : **http://gateway.marvel.com/v1/public/characters**.
+  Pour récupérer les données, nous avons utilisé : **http(s)://gateway.marvel.com/v1/public/characters**.
   
   Il faut savoir que le nombre de données est limité à 100. 
    
