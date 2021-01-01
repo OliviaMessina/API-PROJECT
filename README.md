@@ -63,7 +63,7 @@
   
   ![CODE appearance](https://user-images.githubusercontent.com/74513460/103443256-a04cf680-4c5d-11eb-9464-bda81e38d530.PNG)
   
-  
+  Nous avons créé cette méthode pour toutes les tables.
   
   ---
   
