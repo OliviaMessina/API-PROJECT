@@ -276,7 +276,8 @@
  
   Ensuite, il faut faire la requête permettant de créer la table **GEOGRAPHY** dans *SQL SERVER* contenant ses attributs
   
-  ![CODE geography](https://user-images.githubusercontent.com/74513460/103443481-f58a0780-4c5f-11eb-8838-cdcbe8a57650.PNG)
+  ![CODE geography](https://user-images.githubusercontent.com/74513460/103446799-f2087780-4c83-11eb-9bdb-059892d7943c.PNG)
+
   
   Nous avons créé cette méthode pour toutes les tables.
   
