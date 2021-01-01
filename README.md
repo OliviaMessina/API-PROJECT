@@ -104,10 +104,10 @@
   
   ![LES DIFFRERENTES TABLES MARVEL](https://user-images.githubusercontent.com/74513460/103439985-47bc3000-4c42-11eb-98a2-f440e7c916c2.PNG)
  
-  ## Création des tables SUPERHEROS
+  ## Création des tables MARVEL
   **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
-  Comme vu précédemment, nous avons au total sept tables dans la database **MARVEL**.
+  Comme vu précédemment, nous avons au total douze tables dans la database **MARVEL**.
   Nous allons nous baser sur une seule table **CHARACTERS** pour expliquer plus en détail.
   
   Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
@@ -122,7 +122,7 @@
  
   Ensuite, il faut faire la requête permettant de créer la table **CHARACTERS** dans *SQL SERVER* contenant ses attributs
   
-  
+  ![CODE characters](https://user-images.githubusercontent.com/74513460/103443480-ee62f980-4c5f-11eb-9574-35802861820b.PNG)
   
   Nous avons créé cette méthode pour toutes les tables.
    
@@ -151,10 +151,10 @@
   
   ![CODE_DIFFERENTES_TABLES PAYS](https://user-images.githubusercontent.com/74513460/103439996-53a7f200-4c42-11eb-9159-345a6db26d6d.PNG)
   
-    ## Création des tables SUPERHEROS
+   ## Création des tables PAYS
   **Étape 3** : créer les différentes tables à partir de Python dans SQL
   
-  Comme vu précédemment, nous avons au total sept tables dans la database **PAYS**.
+  Comme vu précédemment, nous avons au total dix tables dans la database **PAYS**.
   Nous allons nous baser sur une seule table **GEOGRAPHY** pour expliquer plus en détail.
   
   Tout d'abord, il faut connecter *Python* à *SQL SERVER* en utilisant la librairie **`pyodbc`**. 
@@ -163,13 +163,13 @@
   import pyodbc
   conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=ServerName;'
-                      'Database=GEOGRAPHY;'
+                      'Database=PAYS;'
                       'Trusted_Connection=yes;') 
   ```
  
   Ensuite, il faut faire la requête permettant de créer la table **GEOGRAPHY** dans *SQL SERVER* contenant ses attributs
   
-  
+  ![CODE geography](https://user-images.githubusercontent.com/74513460/103443481-f58a0780-4c5f-11eb-8838-cdcbe8a57650.PNG)
   
   Nous avons créé cette méthode pour toutes les tables.
   
