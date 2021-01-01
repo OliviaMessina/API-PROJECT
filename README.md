@@ -49,7 +49,10 @@
   Comme vu précédemment, nous avons au total sept tables dans la database **SUPERHEROS**.
   Nous allons nous baser sur une seule table **APPEARANCE** pour expliquer plus en détail.
   
-  Tout d'abord, il faut connecter Python à SQL SERVER en utilisant ``` py import pyodbc ```
+  Tout d'abord, il faut connecter Python à SQL SERVER en utilisant 
+  ``` python
+  import pyodbc 
+  ```
  
   
   
