@@ -5,10 +5,13 @@
 # Table of Contents
   * [SUPERHEROS](#SUPERHEROS)
      - [Info API SUPERHEROS](#Info-API-SUPERHEROS)
+     - [Dictionnaire des données SUPERHEROS](#Dictionnaire-des-données-SUPERHEROS)
   * [MARVEL](#MARVEL)
      - [Info API MARVEL](#Info-API-MARVEL)
+     - [Dictionnaire des données MARVEL](#Dictionnaire-des-données-MARVEL)
   * [PAYS](#PAYS)
-  
+     - [Info API PAYS](#Info-API-PAYS)
+     - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
   
   ## SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
@@ -16,7 +19,7 @@
   ### Info API SUPERHEROS
   Endpoint utilisé : **`http(s)://superheroapi.com/api/access-token/search/name`**
   
-  **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. 
+  **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK 
   
   Pour cette API, il y a 2 manières d'obtenir les données des Superheros :
   + À partir de l'**id**
@@ -24,7 +27,13 @@
   
   Pour récupérer un maximum de données, nous avons cherché à partir du nom : **`http(s)://superheroapi.com/api/access-token/search/a`**
   
-  Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre 'a' dans le prénom. 
+  Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre **'a'** dans le prénom 
+  
+  ### Dictionnaire des données SUPERHEROS
+  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  
+  En transformant le code en _Python JSON Object_ nous obtenons des données structurés :
+  
   
   ---
   
@@ -34,7 +43,7 @@
    ### Info API MARVEL
    Endpoint utilisé : **`http(s)://gateway.marvel.com/`**
    
-   **Étape 1** : récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL. 
+   **Étape 1** : récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL 
    
    Après avoir créer le compte, il faut utiliser ces deux clés (_public key_ & _private key_) pour obtenir les deux autres paramètres obligatoires :
    
@@ -52,11 +61,20 @@
   
   Pour récupérer les données, nous avons utilisé : **`http(s)://gateway.marvel.com/v1/public/characters`**
   
-  Il faut savoir que le nombre de données est limité à 100. 
+  Il faut savoir que le nombre de données est limité à 100 
    
 
   ---
   
    ## PAYS
   ![PAGE DE GARDE1](https://user-images.githubusercontent.com/74513460/103438112-acba5a80-4c2f-11eb-9f9d-d9cbecfdab6f.PNG)
+  
+  ### Info API PAYS
+  
+  Endpoint utilisé : **`http(s)://restcountries.eu/rest/v2/all`**
+   
+  **Étape 1** : pas besoin de créer un compte ou avoir une _public key_
+   
+  Pour récupérer toutes les données, nous avons utilisé le Endpoint ci-dessus
+  
   ---
