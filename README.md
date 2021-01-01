@@ -15,13 +15,13 @@
   ### Info API
   Endpoint utilisé : **https://superheroapi.com/api/access-token/search/name**
   
-  Premièrement, il a fallut récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. \n
+  Premièrement, il a fallut récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK. (\n)
   Pour cette API, il y a 2 manières d'obtenir les données des Superheros :
   + A partir de l'**id**
   + A partir du **nom**
   
-  Pour récupérer un maximum de données, nous avons cherché à partir du nom : **https://superheroapi.com/api/access-token/search/a** \n
-  Nous avons fait **search/a** car logiquement, plusieurs Superheros ont la lettre 'a' dans le prénom. \n
+  Pour récupérer un maximum de données, nous avons cherché à partir du nom : **https://superheroapi.com/api/access-token/search/a** (\n)
+  Nous avons fait **'search/a'** car logiquement, plusieurs Superheros ont la lettre 'a' dans le prénom. (\n)
   
   ---
   
