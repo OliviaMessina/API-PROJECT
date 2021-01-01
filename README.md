@@ -59,9 +59,9 @@
                       'Trusted_Connection=yes;') 
   ```
  
-  Ensuite, il faut faire la requête permettant de créer la table **APPEARANCE** dans *SQL SERVER*
+  Ensuite, il faut faire la requête permettant de créer la table **APPEARANCE** dans *SQL SERVER* contenant ses attributs
   
-  
+  ![CODE appearance](https://user-images.githubusercontent.com/74513460/103443256-a04cf680-4c5d-11eb-9464-bda81e38d530.PNG)
   
   
   
