@@ -84,6 +84,25 @@
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
   1) **PERSONNAGE**
+  ![SQL PERSONNAGE](https://user-images.githubusercontent.com/74513460/103444129-e1490900-4c65-11eb-995d-05fe54863027.PNG)
+  
+  2) **APPEARANCE**
+  ![SQL APPEARANCE](https://user-images.githubusercontent.com/74513460/103444124-db532800-4c65-11eb-8866-8e8e49c04f23.PNG)
+  
+  3) **POWERSTATS**
+  ![SQL POWERSTATS](https://user-images.githubusercontent.com/74513460/103444131-e73eea00-4c65-11eb-95d9-3576740a7a0e.PNG)
+  
+  4) **BIOGRAPHY**
+  ![SQL BIOGRAPHY](https://user-images.githubusercontent.com/74513460/103444125-e017dc00-4c65-11eb-8854-f672764e0033.PNG)
+  
+  5) **CONNECTION**
+  ![SQL CONNECTION](https://user-images.githubusercontent.com/74513460/103444126-e0b07280-4c65-11eb-9cd3-6946db954bb7.PNG)
+  
+  6) **WORK**
+  ![SQL WORK](https://user-images.githubusercontent.com/74513460/103444132-e7d78080-4c65-11eb-9bea-8e8707c9d088.PNG)
+  
+  7) **IMAGE**
+  ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
   
   ---
   
@@ -153,6 +172,48 @@
   
   ![SCHEMA BDD MARVEL](https://user-images.githubusercontent.com/74513460/103443826-01c39400-4c63-11eb-9a24-6b1007924a50.PNG)
   
+   ## Remplissage des tables MARVEL
+  **Étape 4** : remplir les tables à partir de Python et les visualiser sur SQL SERVER
+  
+  Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
+  
+  1) **CHARACTERS**
+  ![SQL PERSONNAGE](https://user-images.githubusercontent.com/74513460/103444129-e1490900-4c65-11eb-995d-05fe54863027.PNG)
+  
+  2) **COMICS**
+  ![SQL APPEARANCE](https://user-images.githubusercontent.com/74513460/103444124-db532800-4c65-11eb-8866-8e8e49c04f23.PNG)
+  
+  3) **SERIES**
+  ![SQL POWERSTATS](https://user-images.githubusercontent.com/74513460/103444131-e73eea00-4c65-11eb-95d9-3576740a7a0e.PNG)
+  
+  4) **STORIES**
+  ![SQL BIOGRAPHY](https://user-images.githubusercontent.com/74513460/103444125-e017dc00-4c65-11eb-8854-f672764e0033.PNG)
+  
+  5) **EVENTS**
+  ![SQL CONNECTION](https://user-images.githubusercontent.com/74513460/103444126-e0b07280-4c65-11eb-9cd3-6946db954bb7.PNG)
+  
+  6) **DESCRIPTION**
+  ![SQL WORK](https://user-images.githubusercontent.com/74513460/103444132-e7d78080-4c65-11eb-9bea-8e8707c9d088.PNG)
+  
+  7) **URL**
+  ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
+  
+  8) **THUMBNAIL**
+  ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
+ 
+ 9) **ITEMS COMICS**
+  ![SQL CONNECTION](https://user-images.githubusercontent.com/74513460/103444126-e0b07280-4c65-11eb-9cd3-6946db954bb7.PNG)
+  
+  10) **ITEMS EVENTS**
+  ![SQL WORK](https://user-images.githubusercontent.com/74513460/103444132-e7d78080-4c65-11eb-9bea-8e8707c9d088.PNG)
+  
+  11) **ITEMS SERIES**
+  ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
+  
+  12) **ITEMS STORIES**
+  ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
+ 
+ 
   ---
   
    # PAYS
