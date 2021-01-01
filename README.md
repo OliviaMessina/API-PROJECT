@@ -6,12 +6,15 @@
   * [SUPERHEROS](#SUPERHEROS)
      - [Info API SUPERHEROS](#Info-API-SUPERHEROS)
      - [Dictionnaire des données SUPERHEROS](#Dictionnaire-des-données-SUPERHEROS)
+     - [Création des tables SUPERHEROS](#Création-des-tables-SUPERHEROS)
   * [MARVEL](#MARVEL)
      - [Info API MARVEL](#Info-API-MARVEL)
      - [Dictionnaire des données MARVEL](#Dictionnaire-des-données-MARVEL)
+     - [Création des tables MARVEL](#Création-des-tables-MARVEL)
   * [PAYS](#PAYS)
      - [Info API PAYS](#Info-API-PAYS)
      - [Dictionnaire des données PAYS](#Dictionnaire-des-données-PAYS)
+     - [Création des tables PAYS](#Création-des-tables-PAYS)
   
   # SUPERHEROS
   ![Capture](https://user-images.githubusercontent.com/74513460/103438065-0ff7bd00-4c2f-11eb-80ee-e2814fca8078.PNG)
@@ -21,7 +24,7 @@
   
   **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK 
   
-  Pour cette API, il y a 2 manières d'obtenir les données des Superheros :
+  Pour cette API, il y a deux manières d'obtenir les données des Superheros :
   + À partir de l'**id**
   + À partir du **nom**
   
@@ -39,6 +42,17 @@
   À partir de cela, nous avons donc fait la liste des tables que nous allons créer sur SQL :
   
   ![DIFFERENTES TABLES SUPERHEROS](https://user-images.githubusercontent.com/74513460/103440004-61f60e00-4c42-11eb-8fc0-08253a64f9d1.PNG)
+  
+  ## Création des tables SUPERHEROS
+  **Étape 3** : créer les différentes tables à partir de Python dans SQL
+  
+  Comme vu précédemment, nous avons au total sept tables dans la database **SUPERHEROS**.
+  Nous allons nous baser sur une seule table **APPEARANCE** pour expliquer plus en détail.
+  
+  Tout d'abord, il faut connecter Python à SQL SERVER en utilisant ``` py import pyodbc ```
+ 
+  
+  
   
   ---
   
