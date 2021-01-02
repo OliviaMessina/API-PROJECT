@@ -87,30 +87,42 @@
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
   1) **PERSONNAGE**
+   Nom de chaque personnage
   
   ![SQL PERSONNAGE](https://user-images.githubusercontent.com/74513460/103444129-e1490900-4c65-11eb-995d-05fe54863027.PNG)
   
   2) **APPEARANCE**
+  Apparence du personnage
   
   ![SQL APPEARANCE](https://user-images.githubusercontent.com/74513460/103444124-db532800-4c65-11eb-8866-8e8e49c04f23.PNG)
   
   3) **POWERSTATS**
   
+  Powerstats pour le caractère donné
+  
   ![SQL POWERSTATS](https://user-images.githubusercontent.com/74513460/103444131-e73eea00-4c65-11eb-95d9-3576740a7a0e.PNG)
   
   4) **BIOGRAPHY**
+  
+  Biographie du personnage
   
   ![SQL BIOGRAPHY](https://user-images.githubusercontent.com/74513460/103444125-e017dc00-4c65-11eb-8854-f672764e0033.PNG)
   
   5) **CONNECTION**
   
+  Les connexions du personnage
+  
   ![SQL CONNECTION](https://user-images.githubusercontent.com/74513460/103444126-e0b07280-4c65-11eb-9cd3-6946db954bb7.PNG)
   
   6) **WORK**
   
+  Travail/occupation du personnage
+  
   ![SQL WORK](https://user-images.githubusercontent.com/74513460/103444132-e7d78080-4c65-11eb-9bea-8e8707c9d088.PNG)
   
   7) **IMAGE**
+  
+  image du personnage, s'il existe
   
   ![SQL IMAGE](https://user-images.githubusercontent.com/74513460/103444127-e0b07280-4c65-11eb-8d7e-e25bc6150770.PNG)
   
@@ -209,49 +221,73 @@
   
   1) **CHARACTERS**
   
+  Le nom du personnage
+  
   ![SQL CHARACTERS](https://user-images.githubusercontent.com/74513460/103444247-2d487d80-4c67-11eb-820d-35edc9e1a38d.PNG)
   
   2) **COMICS**
+  
+  Une liste de ressources contenant des bandes dessinées mettant en vedette ce personnage
   
   ![SQL COMICS](https://user-images.githubusercontent.com/74513460/103444248-2de11400-4c67-11eb-8b69-c41688d2fbf4.PNG)
   
   3) **SERIES**
   
+  Une liste de ressources de séries dans lesquelles ce personnage apparaît
+  
   ![SQL SERIES](https://user-images.githubusercontent.com/74513460/103444256-30436e00-4c67-11eb-82dd-bbaa8972fe8c.PNG)
   
   4) **STORIES**
+  
+  Une liste de ressources d'histoires dans lesquelles ce personnage apparaît
   
   ![SQL STORIES](https://user-images.githubusercontent.com/74513460/103444258-30dc0480-4c67-11eb-8bf8-2f9003aa5a17.PNG)
   
   5) **EVENTS**
   
+  Une liste de ressources d'événements dans lesquels ce personnage apparaît
+  
   ![SQL EVENTS](https://user-images.githubusercontent.com/74513460/103444251-2e79aa80-4c67-11eb-9280-519ebaf48062.PNG)
 
   6) **DESCRIPTION**
+  
+  Une courte biographie ou une description du personnage
   
   ![SQL DESCRIPTION](https://user-images.githubusercontent.com/74513460/103444250-2e79aa80-4c67-11eb-83a5-dc579cbe4c2b.PNG)
   
   7) **URL**
   
+  Un ensemble d'URL de site Web public pour la ressource
+  
   ![SQL URL](https://user-images.githubusercontent.com/74513460/103444261-31749b00-4c67-11eb-8a3f-6ef8c902eb6e.PNG)
 
   8) **THUMBNAIL**
+  
+  L'image représentative de ce personnage
   
   ![SQL THUMBNAIL](https://user-images.githubusercontent.com/74513460/103444260-30dc0480-4c67-11eb-8dfe-2d28cdd24df4.PNG)
  
  9) **ITEMS COMICS**
  
+ Liste de ressources de bandes déssinées liées au personnage
+ 
   ![SQL ITEMS COMICS](https://user-images.githubusercontent.com/74513460/103444252-2f124100-4c67-11eb-9b86-b8014f137548.PNG)
   
   10) **ITEMS EVENTS**
+  
+  Liste de ressources d'évènement liées au personnage
   
   ![SQL ITEMS EVENTS](https://user-images.githubusercontent.com/74513460/103444253-2faad780-4c67-11eb-9657-3d4c461fbb1b.PNG)
 
   11) **ITEMS SERIES**
   
+  Liste de ressources de série liées au personnage
+  
   ![SQL ITEMS SERIES](https://user-images.githubusercontent.com/74513460/103444254-2faad780-4c67-11eb-8df5-09ac936d9ddd.PNG)
 
   12) **ITEMS STORIES**
+  
+  Liste de ressources d'histoires liées au personnage
   
   ![SQL ITEMS STORIES](https://user-images.githubusercontent.com/74513460/103444255-30436e00-4c67-11eb-8ae5-c4bf247ca1a4.PNG)
 
@@ -259,15 +295,15 @@
   
   Pour tester notre base de données, on a effectué des requêtes SQL à partir des tables de la database
   
-  1) **Les Superheros qui ont une description egale à null**
+  1) **Les Superheros qui n'ont pas de description**
   
   ![les superheros qui ont des description est egal à null](https://user-images.githubusercontent.com/74513460/103446966-92ab6700-4c85-11eb-8057-a247cce5d633.PNG)
 
-  2) **Superheros ayant un nombre de comics dont le nombre de séries est supérieur à la moyenne**
+  2) **Superheros ayant un nombre de BD dont le nombre de séries est supérieur à la moyenne**
   
   ![Superheros ayant sortie une BD dont le nombre de serie est superieur à la moyenne](https://user-images.githubusercontent.com/74513460/103446964-9212d080-4c85-11eb-8157-28fc7f5c3807.PNG)
 
- 3) **Superheros qui ont une extension JPG et dont available égale 0 dans stories**
+ 3) **Superheros qui ont une extension JPG et dont le nombre total d'articles disponibles est égal à 0**
  
  ![Superheros qui ont des vignettes JGN (ou JPG) mais qui n'ont pas de stories available](https://user-images.githubusercontent.com/74513460/103446963-9212d080-4c85-11eb-945c-2d75e490c04b.PNG)
 
