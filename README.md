@@ -1,8 +1,5 @@
-# API-PROJECT
-
 ![API PROJECT](https://user-images.githubusercontent.com/74513460/103488815-2f9a0b80-4e10-11eb-92ec-45bc1bfd709f.PNG)
-
- ## L' Objectif est de créer une BDD et la remplir des données venant d'une API 
+## L' Objectif est de créer une BDD et la remplir des données venant d'une API
 
 # Table of Contents
   * [SUPERHEROS](#SUPERHEROS)
