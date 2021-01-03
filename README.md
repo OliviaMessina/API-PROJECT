@@ -39,7 +39,7 @@
   
   Pour récupérer un maximum de données, nous avons cherché à partir du nom : **`http(s)://superheroapi.com/api/access-token/search/a`**
   
-  Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre **'a'** dans le prénom 
+  Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre **'a'** dans leur prénom 
   
   ## Dictionnaire des données SUPERHEROS
   **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
