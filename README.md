@@ -172,7 +172,7 @@
   
   Pour récupérer les données, nous avons utilisé : **`http(s)://gateway.marvel.com/v1/public/characters`**
   
-  Il faut savoir que le nombre de données est limité à 100 
+  Il faut savoir que le nombre de resources est limité à 100 
   
   ## Dictionnaire des données MARVEL
   **Étape 2** : Récuperer les données sous forme JSON Object et création des différents dictionnaires 
