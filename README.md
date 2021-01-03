@@ -31,7 +31,7 @@
   ## Info API SUPERHEROS
   Endpoint utilisé : **`http(s)://superheroapi.com/api/access-token/search/name`**
   
-  **Étape 1** : récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK 
+  **Étape 1** : Récupérer l'_access-token_ en se connectant avec un compte FACEBEOOK 
   
   Pour cette API, il y a deux manières d'obtenir les données des Superheros :
   + À partir de l'**id**
@@ -42,7 +42,7 @@
   Nous avons fait **`search/a`** car logiquement, plusieurs Superheros ont la lettre **'a'** dans leur prénom 
   
   ## Dictionnaire des données SUPERHEROS
-  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  **Étape 2** : Récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
@@ -53,7 +53,7 @@
   ![DIFFERENTES TABLES SUPERHEROS](https://user-images.githubusercontent.com/74513460/103440004-61f60e00-4c42-11eb-8fc0-08253a64f9d1.PNG)
   
   ## Création des tables SUPERHEROS
-  **Étape 3** : créer les différentes tables à partir de Python dans SQL
+  **Étape 3** : Création des différentes tables à partir de Python dans SQL
   
   Comme vu précédemment, nous avons au total sept tables dans la database **SUPERHEROS** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
   
@@ -82,7 +82,7 @@
   ![SCHEMA BDD SUPERHEROS](https://user-images.githubusercontent.com/74513460/103443837-1142dd00-4c63-11eb-9a76-ce90dcf00a4d.PNG)
   
   ## Remplissage des tables SUPERHEROS
-  **Étape 4** : remplir les tables à partir de Python et les visualiser sur SQL SERVER
+  **Étape 4** : Remplissage des tables à partir de Python et les visualiser sur SQL SERVER
   
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
@@ -154,7 +154,7 @@
    ## Info API MARVEL
    Endpoint utilisé : **`http(s)://gateway.marvel.com/`**
    
-   **Étape 1** : récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL 
+   **Étape 1** : Récupérer la _public key_ & la _private key_ en se connectant avec un compte MARVEL 
    
    Après avoir créer le compte, il faut utiliser ces deux clés (_public key_ & _private key_) pour obtenir les deux autres paramètres obligatoires :
    
@@ -175,7 +175,7 @@
   Il faut savoir que le nombre de données est limité à 100 
   
   ## Dictionnaire des données MARVEL
-  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  **Étape 2** : Récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
@@ -186,7 +186,7 @@
   ![LES DIFFRERENTES TABLES MARVEL](https://user-images.githubusercontent.com/74513460/103439985-47bc3000-4c42-11eb-98a2-f440e7c916c2.PNG)
  
   ## Création des tables MARVEL
-  **Étape 3** : créer les différentes tables à partir de Python dans SQL
+  **Étape 3** : Création des différentes tables à partir de Python dans SQL
   
   Comme vu précédemment, nous avons au total douze tables dans la database **MARVEL** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
   
@@ -215,7 +215,7 @@
   ![SCHEMA BDD MARVEL](https://user-images.githubusercontent.com/74513460/103443826-01c39400-4c63-11eb-9a24-6b1007924a50.PNG)
   
    ## Remplissage des tables MARVEL
-  **Étape 4** : remplir les tables à partir de Python et les visualiser sur SQL SERVER
+  **Étape 4** : Remplissage des tables à partir de Python et les visualiser sur SQL SERVER
   
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
@@ -316,12 +316,12 @@
   
   Endpoint utilisé : **`http(s)://restcountries.eu/rest/v2/all`**
    
-  **Étape 1** : pas besoin de créer un compte ou avoir une _public key_
+  **Étape 1** : Pas besoin de créer un compte ou avoir une _public key_
    
   Pour récupérer toutes les données, nous avons utilisé le Endpoint ci-dessus
   
   ## Dictionnaire des données PAYS
-  **Étape 2** : récuperer les données sous forme JSON Object et création des différents dictionnaires 
+  **Étape 2** : Récuperer les données sous forme JSON Object et création des différents dictionnaires 
   
   En transformant le code en _Python JSON Object_, nous obtenons des données structurées (un extrait) :
   
@@ -332,7 +332,7 @@
   ![CODE_DIFFERENTES_TABLES PAYS](https://user-images.githubusercontent.com/74513460/103439996-53a7f200-4c42-11eb-9159-345a6db26d6d.PNG)
   
    ## Création des tables PAYS
-  **Étape 3** : créer les différentes tables à partir de Python dans SQL
+  **Étape 3** : Création des différentes tables à partir de Python dans SQL
   
   Comme vu précédemment, nous avons au total huit tables dans la database **PAYS** (la database a été créée dans SQL SERVER avant de pouvoir l'utiliser).
   
@@ -362,7 +362,7 @@
   ![SCHEMA_BDD PAYS](https://user-images.githubusercontent.com/74513460/103443820-f40e0e80-4c62-11eb-9787-404152fe05b1.PNG)
   
    ## Remplissage des tables PAYS
-  **Étape 4** : remplir les tables à partir de Python et les visualiser sur SQL SERVER
+  **Étape 4** : Remplissage des tables à partir de Python et les visualiser sur SQL SERVER
   
   Après avoir rempli les tables à partir de Python, nous pouvons désormais les visualiser sur SQL SERVER.
   
